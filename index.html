@@ -1,0 +1,28 @@
+<html>
+
+<head>
+    <title>eShop 模擬購物網站超商取貨</title>
+</head>
+
+<body>
+    <hr>
+    <form method="post" action="https://www.ezship.com.tw/emap/rv_request_web.jsp" accept-charset="big5">
+        <b>取貨方式</b>
+        <br>
+        <input name="Submit2" type="submit" value="選擇門市">
+        <br>
+        <input type="text" name="rv_name" value="劉德華"> <!-- 取件人姓名 -->
+        <input type="text" name="rv_email" value="theplutusteam@gmail.com"> <!-- 取件人email -->
+        <input type="text" name="rv_mobil" value="0912345678"> <!-- 取件人行動電話 -->
+        <input type="text" name="order_id" value="666666"> <!-- 購物網站自行產生之訂單編號 -->
+        <input type="text" name="su_id" value="leon19941214@gmail.com"> <!-- 業主在 ezShip 使用的帳號 -->
+        <input type="text" name="rv_amount" value="0"><!-- 金額 -->
+        <input type="text" name="webtemp" value="999999"><!-- 網站所需額外判別資料。ezShip 將原值回傳，供網站判別用 -->
+        <input type="text" name="rturl" value="https://willis-shop.commerbiz.com">
+        <!--<input type="text" name="rturl" value="http://www.ezship.com.tw/emap/ezship_simulation_receive.jsp">-->
+        <!-- 回傳路徑及程式名稱 -->
+    </form>
+    <hr>
+</body>
+
+</html>
